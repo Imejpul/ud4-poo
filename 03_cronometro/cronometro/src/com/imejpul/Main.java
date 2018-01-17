@@ -21,6 +21,8 @@ public class Main {
                     "    Consultar cronómetro (C)\n" +
                     "    Salir (S)\n");
 
+            System.out.print("Opción: ");
+
             opcion = br.readLine().toLowerCase().charAt(0);
 
             switch (opcion) {
