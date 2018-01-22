@@ -7,6 +7,8 @@ public class Alumno {
     private String dni;
     private String telefono;
 
+    Grupo gr = new Grupo();
+
     public Alumno(String nombre, String apellidos, String dni, String telefono) {
         this.nombre = nombre;
         this.apellidos = apellidos;
